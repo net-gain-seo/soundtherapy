@@ -12,7 +12,7 @@ $page_sidebar = 'default-sidebar';
 <section id="pageContent" class="blogPosts innerWrapper clearfix <?php if($show_page_sidebar == 1){ echo 'hasSidebar'; } if($show_page_sidebar == 1){ echo ' sidebarOn'.$sidebar_location; } ?>" style="padding-top: 50px">
 	<div class="container">
 		<div class="row pt-0">
-			<main class="col col-12 col-md-8">
+			<main class="col col-12 col-md-9">
 				<h1 class="pagetitle">
 					<?php
 					if(is_category()){
@@ -50,7 +50,7 @@ $page_sidebar = 'default-sidebar';
 
 			<?php
 			if($show_page_sidebar == 1){
-				echo '<aside id="page_sidebar" class="col col-12 col-md-4">';
+				echo '<aside id="page_sidebar" class="col col-12 col-md-3">';
 				dynamic_sidebar($page_sidebar);
 				echo '</aside>';
 			}

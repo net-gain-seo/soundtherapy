@@ -19,7 +19,7 @@ $page_sidebar = 'default-sidebar';
 			while ( have_posts() ) : the_post();
 
 			?>
-			<main class="clearfix col col-12 col-md-8">
+			<main class="clearfix col col-12 col-md-9">
 				<?php
 				echo '<article>';
 				if($pageTitle == 1){
@@ -42,7 +42,7 @@ $page_sidebar = 'default-sidebar';
 
 			<?php
 			if($show_page_sidebar == 1){
-				echo '<aside id="page_sidebar" class="col col-12 col-md-4">';
+				echo '<aside id="page_sidebar" class="col col-12 col-md-3">';
 				dynamic_sidebar($page_sidebar);
 				echo '</aside>';
 			}

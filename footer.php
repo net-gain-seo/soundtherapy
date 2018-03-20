@@ -30,7 +30,7 @@
     <div id="footerBottom" class="clearfix">
         <div id="footerCopyInfo" class="container">
 					<div class="left footersocial">
-						<a href="#" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Facebookwhite_Icon.png" /><a href="#" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Twitterwhite_Icon.png" /><a href="#" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Linkedinwhite_Icon.png" />
+						<a href="https://www.facebook.com/SoundTherapyHearing/" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Facebookwhite_Icon.png" /><a href="#" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Twitterwhite_Icon.png" /><a href="#" target="_blank"><img src="<?php echo get_home_url(); ?>/wp-content/uploads/2018/02/Linkedinwhite_Icon.png" />
 					</div>
             <div class="right">
                 <p id="footercopy">Copyright© <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?></p>

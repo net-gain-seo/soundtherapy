@@ -1,0 +1,114 @@
+.book_now_banner{
+  background-color: #E2E3E3;
+  color: #58595B;
+  .row{
+    padding: 30px 0px;
+  }
+
+  p{
+      color: #58595B;
+  }
+  a.button {
+    padding: 10px 15px;
+    top: -50px;
+    right: -20px;
+    font-size: 2.4rem;
+    display: inline-block;
+    position: absolute;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 0px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background: linear-gradient(to right, #00619F, #004884);
+      color: white;
+      text-decoration: none;
+      border: 0px solid $secondary-color;
+  }
+}
+.book_now_banner .book_now_text {
+    color: #58595B;
+    font-size: 3.9rem;
+    float: left;
+    margin-top: 3px;
+}
+.info_box{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.infotitle {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+
+
+
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.HearingForm h2 {
+    color: $white-text;
+    font-size: 24px;
+}
+.HearingForm{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.HearingForm .col{
+  margin-bottom: 10px;
+}
+
+
+.PromotionContent{
+
+}

@@ -1,0 +1,209 @@
+.navbar {
+    float: right;
+    padding: 0px;
+
+    #menu-main-menu {
+        margin-bottom: 0;
+
+        > li {
+            display: inline-block;
+            float: left;
+            position: relative;
+            font-family: open sans, arial, sans-serif;
+
+            a {
+                display: inline-block;
+                color: #757678;
+                padding: 0px 10px;
+                font-size: 1.8rem;
+                text-transform: capitalize;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $secondary-color;
+                }
+            }
+            &:last-child a{
+              padding-right: 0px!important;
+            }
+            .dropdown-menu {
+                display: none;
+                position: absolute;
+                top: 98%;
+                left: 0;
+                background: $primary-color;
+                padding: 0;
+                z-index: 10000;
+                border: none;
+
+                li {
+                    display: block;
+                    list-style-type: none;
+                    white-space: nowrap;
+                    font-family: roboto, arial, sans-serif;
+
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                    a {
+                        text-transform: none;
+                        display: block;
+                        padding: 10px;
+                    }
+                }
+            }
+
+            &:hover {
+                color: $secondary-color;
+
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+            &.current-menu-parent a{
+                color: $secondary-color;
+            }
+            &.current_page_item a{
+                color: $secondary-color;
+            }
+        }
+    }
+}
+.navbar-toggleable-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar > div > ul > li > a {
+    display: block;
+    padding: 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    vertical-align: bottom;
+    color: #757678;
+}
+.navbar > div > ul > li.current-menu-item, .navbar > div > ul > li:hover {
+    color: $secondary-color;
+    text-decoration: none;
+}
+.hide-screen-lg-min{
+  display: none;
+}
+.navbar-inverse .navbar-toggler {
+    color: #ffffff;
+    background-color: #2ea2f2;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover{
+      background: linear-gradient(to right, #00619F, #004884);
+      color: white;
+    }
+}
+.navbar-toggler-icon{
+  font-size: 2rem;
+}
+//RESPONSIVE
+@media (max-width: $screen-lg-max) {
+    .navbar #menu-main-menu>li:last-child a{
+      padding: 10px 20px!important;
+    }
+    .hide-screen-lg-min {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        color: $white-text;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    .navbar {
+        float: none;
+        padding: 0px;
+        margin: auto;
+        width: 100%;
+        display: inline-block;
+    }
+    .navbar-toggler-right {
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+	#mainMenu{
+		&.collapse{
+			position: fixed;
+		    background: $primary-color;
+		    top: 0px;
+		    left: -360px;
+		    width: 360px;
+		    height: 100%;
+		    z-index: 999991;
+		    transition:left 0.1s ease;
+				overflow: auto;
+		}
+		&.collapsing{
+			position: fixed;
+		    background: $primary-color;
+		    top: 0px;
+		    left: -360px;
+		    width: 360px;
+		    height: 100%;
+		    z-index: 999991;
+		    transition:left 0.1s ease;
+		}
+		&.show{
+			left: 0px;
+		}
+
+		>#menu-main-menu{
+			li{
+				margin: 0px;
+				padding: 0;
+				a{
+					padding: 10px 20px;
+          width: 100%;
+          color: white;
+					&:hover{
+						background: $secondary-color;
+					}
+					&:active,
+					&:focus{
+						background: $secondary-color;
+						color: black;
+					}
+				}
+				&.current-menu-item{
+					>a{
+						background: $secondary-color;
+						color: black;
+					}
+				}
+			}
+		}
+	}
+	#mainMenu{
+		.dropdown-menu{
+			display: block;
+			background: transparent;
+			border: none;
+			border-top: 1px solid #292b2c;
+            width: 100%;
+            margin-top: -2px;
+
+			.dropdown-item{
+			    padding: 10px 20px 10px 30px !important;
+			}
+		}
+	}
+
+	#mainMenu li{
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #292b2c;
+
+        ul {
+            li {
+                border: none;
+            }
+        }
+	}
+  .navbar-toggler-right {
+      right: 0rem;
+  }
+}

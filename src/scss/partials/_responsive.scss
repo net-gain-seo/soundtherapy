@@ -1,0 +1,219 @@
+@media only screen and (max-width: $screen-lg-min) {
+    .servicesection .button {
+        top: 220px!important;
+        right: 50px;
+    }
+    .servicesection .title {
+        top: 135px!important;
+        right: 70px;
+    }
+    .dropdown-menu {
+        display: block!important;
+        position: relative!important;
+    }
+    body header {
+        height: auto;
+    }
+    #headerTop .container{
+     .left {
+        padding: 0;
+        float: none;
+        width: 485px;
+        margin: auto;
+    }
+    .right{
+      float: none;
+      margin: auto;
+      width: 300px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .col.col_one_fifth {
+      width: 50%!important;
+  }
+  .contactsection{
+    label {
+        display: block;
+        margin-bottom: .5rem;
+    }
+  }
+  .book_now_banner a.button {
+      padding: 10px 15px;
+      top: 10px;
+      right: 0;
+      font-size: 2.4rem;
+      display: inline-block;
+      position: relative;
+  }
+  .google, .contactsection .button{
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: $screen-md-min) {
+  .contactpage .contactlogo {
+      position: absolute;
+      bottom: 10px;
+      right: 0px;
+      z-index: -1;
+  }
+  .post_title h1 {
+      margin-top: 40px!important;
+  }
+  .contactButtons {
+      position: absolute;
+      right: 1%;
+  }
+  .servicesection{
+      .imagebox{
+        margin-bottom: 20px;
+      }
+    }
+    #headerTop .container .left {
+        padding-top: 20px!important;
+    }
+    .bluetext.custompadding {
+        padding: 40px 0px!important;
+    }
+    .custompadding {
+        padding: 60px 0px!important;
+    }
+    .teamsection h5, .servicepage h5, .hearingaidspage h5 {
+      margin-top: 20px!important;
+    }
+    #headerTop #logo {
+        display: inline-block;
+        margin: 0px 0 0px;
+        width: 325px;
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    #headerTop .container .left {
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    #headerTop .right {
+        float: none;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        margin: auto;
+        width: 495px;
+    }
+    .footer-right {
+        float: none;
+        text-align: center;
+        color: white;
+    }
+    .footer-left .textwidget,
+    .footer-right .textwidget {
+        margin: auto;
+        text-align: center;
+    }
+    .ngslider {
+        width: 100% !important;
+        height: 600px!important;
+    }
+    .question {
+      text-align: center;
+      height: 525px!important;
+    }
+}
+@media only screen and (max-width: $screen-sm-max) {
+    .col.col_one_fifth {
+        width: 100%!important;
+    }
+    #floatingAppointment {
+        display: none;
+    }
+    footer{
+      .footer-left{
+        h3{
+          font-size:2.8rem;
+          color: white;
+          text-align: center;
+          margin-top: 0px;
+          font-weight: bold;
+        }
+        p{
+          color: white;
+          text-align: center;
+          float: none;
+        }
+      }
+      .footer-right{
+        h4{
+          font-size:3.5rem;
+          color: white;
+          font-family: open sans, arial, sans-serif;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        a{
+          font-size:3.5rem;
+          color: white;
+          float: none;
+          text-align: center;
+        }
+        .call{
+          float: none;
+        }
+        p{
+          color: white;
+          text-align: center;
+          float: none;
+        }
+      }
+      #footerBottom #footerCopyInfo #footercopy {
+          font-size: 1.4rem;
+      }
+    }
+    #headerTop .container .right {
+        float: none;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: $screen-xsm-max) {
+    .contactButtons {
+        display: none;
+    }
+    #headerTop .right {
+        float: none;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    #callToAction {
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .col-sm-12,
+    .col-xsm-12,
+    .col-md-12,
+    .col-lg-12 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ngslider {
+        width: 100% !important;
+        height: 750px!important;
+    }
+    .question {
+        text-align: center;
+        height: 650px !important;
+    }
+}

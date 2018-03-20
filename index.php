@@ -8,6 +8,10 @@ $page_sidebar = get_post_meta($postId,'page_sidebar',true);
 $sidebar_location = get_post_meta($postId,'sidebar_location',true);
 $page_sidebar = 'default-sidebar';
 
+    echo '<div id="postThumbnail">';
+		echo '<img src="http://209.126.119.193/~soundtherapy/wp-content/uploads/2018/02/BookBanner.jpg"/>';
+    echo '</div>';
+
 ?>
 <section id="pageContent" class="blogPosts innerWrapper clearfix <?php if($show_page_sidebar == 1){ echo 'hasSidebar'; } if($show_page_sidebar == 1){ echo ' sidebarOn'.$sidebar_location; } ?>" style="padding-top: 50px">
 	<div class="container">
